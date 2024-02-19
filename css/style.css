@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 1.5s ease;
+}
+
+#ladel_toggle{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: rebeccapurple;
+
+
+}
+
+#toggle{
+    display: none;
+}
+
+.dark{
+    background-color: #333;
+    color: white;
+    transition: all 1.5s ease;
+}
+
